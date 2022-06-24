@@ -5,3 +5,4 @@ files {
 }
 
 data_file 'PED_METADATA_FILE' 'peds.meta'
+client_script "@Badger-Anticheat/acloader.lua"
