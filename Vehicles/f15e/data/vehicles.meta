@@ -5,11 +5,11 @@
 
   <InitDatas>
     <Item>
-      <modelName>c172</modelName>
-      <txdName>c172</txdName>
-      <handlingId>c172</handlingId>
-      <gameName>c172</gameName>
-      <vehicleMakeName>CESSNA</vehicleMakeName>
+      <modelName>f15e</modelName>
+      <txdName>f15e</txdName>
+      <handlingId>f15e</handlingId>
+      <gameName>f15e</gameName>
+      <vehicleMakeName>f15e</vehicleMakeName>
       <expressionDictName>null</expressionDictName>
       <expressionName>null</expressionName>
       <animConvRoofDictName>null</animConvRoofDictName>
