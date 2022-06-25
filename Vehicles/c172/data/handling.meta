@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CHandlingDataMgr>
+  <HandlingData>
+    <Item type="CHandlingData">
+      <handlingName>c172</handlingName>
+      <fMass value="1111.000000" />
+      <fInitialDragCoeff value="6.00000" />
+      <fPercentSubmerged value="20.000000" />
+      <vecCentreOfMassOffset x="0.000000" y="0.800000" z="0.000000" />
+      <vecInertiaMultiplier x="1.500000" y="1.750000" z="2.500000" />
+      <fDriveBiasFront value="0.500000" />
+      <nInitialDriveGears value="1" />
+      <fInitialDriveForce value="0.001" />
+      <fDriveInertia value="0.100000" />
+      <fClutchChangeRateScaleUpShift value="1.300000" />
+      <fClutchChangeRateScaleDownShift value="1.300000" />
+      <fInitialDriveMaxFlatVel value="328.60000" />
+      <fBrakeForce value="0.001" />
+      <fBrakeBiasFront value="0.500000" />
+      <fHandBrakeForce value="0.010000" />
+      <fSteeringLock value="22.000000" />
+      <fTractionCurveMax value="0.85000" />
+      <fTractionCurveMin value="0.80000" />
+      <fTractionCurveLateral value="12.000000" />
+      <fTractionSpringDeltaMax value="0.100000" />
+      <fLowSpeedTractionLossMult value="0.000000" />
+      <fCamberStiffnesss value="0.000000" />
+      <fTractionBiasFront value="0.500000" />
+      <fTractionLossMult value="1.000000" />
+      <fSuspensionForce value="1.00000" />
+      <fSuspensionCompDamp value="0.50000" />
+      <fSuspensionReboundDamp value="0.330000" />
+      <fSuspensionUpperLimit value="0.000000" />
+      <fSuspensionLowerLimit value="-0.100000" />
+      <fSuspensionRaise value="0.000000" />
+      <fSuspensionBiasFront value="0.600000" />
+      <fAntiRollBarForce value="0.000000" />
+      <fAntiRollBarBiasFront value="0.000000" />
+      <fRollCentreHeightFront value="0.500000" />
+      <fRollCentreHeightRear value="0.500000" />
+      <fCollisionDamageMult value="0.100000" />
+      <fWeaponDamageMult value="0.100000" />
+      <fDeformationDamageMult value="3.000000" />
+      <fEngineDamageMult value="8.000000" />
+      <fPetrolTankVolume value="212.000000" />
+      <fOilVolume value="7.570000" />
+      <fSeatOffsetDistX value="0.000000" />
+      <fSeatOffsetDistY value="-0.300000" />
+      <fSeatOffsetDistZ value="0.300000" />
+      <nMonetaryValue value="45000" />
+      <strModelFlags>1000248</strModelFlags>
+      <strHandlingFlags>54411113</strHandlingFlags>
+      <strDamageFlags>0</strDamageFlags>
+      <AIHandling>AVERAGE</AIHandling>
+      <SubHandlingData>
+        <Item type="CFlyingHandlingData">
+          <fThrust value="0.500000" />
+          <fThrustFallOff value="0.00000011" />
+          <fThrustVectoring value="0.001000" />
+          <fYawMult value="-0.001" />
+          <fYawStabilise value="0.002" />
+          <fSideSlipMult value="0.050000" />
+          <fRollMult value="0.0020" />
+          <fRollStabilise value="0.000000" />
+          <fPitchMult value="0.00038" />
+          <fPitchStabilise value="0.00001" />
+          <fFormLiftMult value="0.000400" />
+          <fAttackLiftMult value="0.0030" />
+          <fAttackDiveMult value="0.0025" />
+          <fGearDownDragV value="0.050" />
+          <fGearDownLiftMult value="1.25" />
+          <fWindMult value="0.1500" />
+          <fMoveRes value="0.001" />
+          <vecTurnRes x="8.990000" y="1.990000" z="1.090000" />
+          <vecSpeedRes x="0.3000000" y="0.5000000" z="0.6000000" />
+          <fGearDoorFrontOpen value="90.0" />
+          <fGearDoorRearOpen value="10.0" />
+          <fGearDoorRearOpen2 value="100.0" />
+          <fGearDoorRearMOpen value="-10.0" />
+          <fTurublenceMagnitudeMax value="0.000000" />
+          <fTurublenceForceMulti value="0.000000" />
+          <fTurublenceRollTorqueMulti value="0.00000" />
+          <fTurublencePitchTorqueMulti value="0.0000" />
+          <fBodyDamageControlEffectMult value="0.500000" />
+          <fInputSensitivityForDifficulty value="3.000000" />
+          <fOnGroundYawBoostSpeedPeak value="1.000000" />
+          <fOnGroundYawBoostSpeedCap value="3.000000" />
+          <fEngineOffGlideMulti value="10.000000" />
+		  <fExtraLiftWithRoll value="20.000000" />
+          <handlingType>HANDLING_TYPE_FLYING</handlingType>
+        </Item>
+        <Item type="NULL" />
+        <Item type="NULL" />
+      </SubHandlingData>
+    </Item>
+  </HandlingData>
+</CHandlingDataMgr>
