@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+<CVehicleModelInfoVarGlobal>
+  <Kits>
+	<Item>
+      <kitName>660_c172_modkit</kitName>
+      <id value="660" />
+      <kitType>MKT_SPECIAL</kitType>
+      <visibleMods>
+		 <Item>
+          <modelName>c172_parkedconfig</modelName>
+          <modShopLabel>C172_PARKED</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    <Item>mod_z</Item>
+          </turnOffBones>
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+		</Item>
+	   <Item>
+          <modelName>c172_wheel_cover_off</modelName>
+          <modShopLabel>C172_WHEEL_COVER_OFF</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    <Item>mod_a</Item>
+			<Item>mod_b</Item>
+			<Item>mod_c</Item>
+          </turnOffBones>
+          <type>VMT_ROOF</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+		</Item>
+	   <Item>
+          <modelName>c172_flap_l_jam</modelName>
+          <modShopLabel>C172_FLAP_L_FAILURE_JAM</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    <Item>mod_j</Item>
+          </turnOffBones>
+          <type>VMT_GRILL</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+		</Item>
+	   <Item>
+          <modelName>c172_flap_l_jam_1</modelName>
+          <modShopLabel>C172_FLAP_L_FAILURE_JAM_1</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    <Item>mod_j</Item>
+          </turnOffBones>
+          <type>VMT_GRILL</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+		</Item>
+	   <Item>
+          <modelName>c172_flap_l_jam_2</modelName>
+          <modShopLabel>C172_FLAP_l_FAILURE_JAM_2</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    <Item>mod_j</Item>
+          </turnOffBones>
+          <type>VMT_GRILL</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+		</Item>
+		<Item>
+          <modelName>c172_flap_r_jam</modelName>
+          <modShopLabel>C172_FLAP_R_FAILURE_JAM</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    <Item>mod_i</Item>
+          </turnOffBones>
+          <type>VMT_SPOILER</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+		</Item>
+	   <Item>
+          <modelName>c172_flap_r_jam_1</modelName>
+          <modShopLabel>C172_FLAP_R_FAILURE_JAM_1</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    <Item>mod_i</Item>
+          </turnOffBones>
+          <type>VMT_SPOILER</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+		</Item>
+	   <Item>
+          <modelName>c172_flap_r_jam_2</modelName>
+          <modShopLabel>C172_FLAP_R_FAILURE_JAM_2</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    <Item>mod_i</Item>
+          </turnOffBones>
+          <type>VMT_SPOILER</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+		</Item>
+	   <Item>
+          <modelName>c172_rudder_jam</modelName>
+          <modShopLabel>C172_RUDDER_FAILURE_JAM</modShopLabel>
+          <linkedModels>
+            <Item>iae_faan_l</Item>
+          </linkedModels>
+          <turnOffBones>
+            <Item>mod_g</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>gear_f2</bone>
+          <collisionBone>gear_f2</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+	    </Item>
+	   <Item>
+          <modelName>c172_rudder_jam_left</modelName>
+          <modShopLabel>C172_RUDDER_FAILURE_JAM_LEFT</modShopLabel>
+          <linkedModels>
+            <Item>iae_faan_l</Item>
+          </linkedModels>
+          <turnOffBones>
+            <Item>mod_g</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>gear_f2</bone>
+          <collisionBone>gear_f2</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+	    </Item>
+	   <Item>
+          <modelName>c172_rudder_jam_right</modelName>
+          <modShopLabel>C172_RUDDER_FAILURE_JAM_RIGHT</modShopLabel>
+          <linkedModels>
+            <Item>iae_faan_l</Item>
+          </linkedModels>
+          <turnOffBones>
+            <Item>mod_g</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>gear_f2</bone>
+          <collisionBone>gear_f2</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+	    </Item>
+	   <Item>
+          <modelName>c172_aileron_r_jam</modelName>
+          <modShopLabel>C172_AILERON_R_FAILURE_JAM</modShopLabel>
+          <linkedModels>
+            <Item>iae_faan_l</Item>
+          </linkedModels>
+          <turnOffBones>
+            <Item>mod_d</Item>
+          </turnOffBones>
+          <type>VMT_SKIRT</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+	    </Item>
+	   <Item>
+          <modelName>c172_aileron_r_jam_down</modelName>
+          <modShopLabel>C172_AILERON_R_FAILURE_JAM_DOWN</modShopLabel>
+          <linkedModels>
+            <Item>iae_faan_l</Item>
+          </linkedModels>
+          <turnOffBones>
+            <Item>mod_d</Item>
+          </turnOffBones>
+          <type>VMT_SKIRT</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+	    </Item>
+	   <Item>
+          <modelName>c172_aileron_r_jam_up</modelName>
+          <modShopLabel>C172_AILERON_R_FAILURE_JAM_UP</modShopLabel>
+          <linkedModels>
+            <Item>iae_faan_l</Item>
+          </linkedModels>
+          <turnOffBones>
+            <Item>mod_d</Item>
+          </turnOffBones>
+          <type>VMT_SKIRT</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+	    </Item>
+	   <Item>
+          <modelName>c172_elevator_jam</modelName>
+          <modShopLabel>C172_ELEVATOR_FAILURE_JAM</modShopLabel>
+          <linkedModels>
+            <Item>iae_faan_l</Item>
+          </linkedModels>
+          <turnOffBones>
+            <Item>mod_f</Item>
+          </turnOffBones>
+          <type>VMT_CHASSIS</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+	    </Item>
+	   <Item>
+          <modelName>c172_elevator_jam_down</modelName>
+          <modShopLabel>C172_ELEVATOR_FAILURE_JAM_DOWN</modShopLabel>
+          <linkedModels>
+            <Item>iae_faan_l</Item>
+          </linkedModels>
+          <turnOffBones>
+            <Item>mod_f</Item>
+          </turnOffBones>
+          <type>VMT_CHASSIS</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+	    </Item>
+	   <Item>
+          <modelName>c172_elevator_jam_up</modelName>
+          <modShopLabel>C172_ELEVATOR_FAILURE_JAM_UP</modShopLabel>
+          <linkedModels>
+            <Item>iae_faan_l</Item>
+          </linkedModels>
+          <turnOffBones>
+            <Item>mod_f</Item>
+          </turnOffBones>
+          <type>VMT_CHASSIS</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+	    </Item>
+	   <Item>
+          <modelName>c172_aileron_l_jam</modelName>
+          <modShopLabel>C172_AILERON_L_FAILURE_JAM</modShopLabel>
+          <linkedModels>
+            <Item>iae_faan_l</Item>
+          </linkedModels>
+          <turnOffBones>
+            <Item>mod_e</Item>
+          </turnOffBones>
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+	    </Item>
+	   <Item>
+          <modelName>c172_aileron_l_jam_down</modelName>
+          <modShopLabel>C172_AILERON_L_FAILURE_JAM_DOWN</modShopLabel>
+          <linkedModels>
+            <Item>iae_faan_l</Item>
+          </linkedModels>
+          <turnOffBones>
+            <Item>mod_e</Item>
+          </turnOffBones>
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+	    </Item>
+	   <Item>
+	      <modelName>c172_aileron_l_jam_up</modelName>
+          <modShopLabel>C172_AILERON_L_FAILURE_JAM_UP</modShopLabel>
+          <linkedModels>
+            <Item>iae_faan_l</Item>
+          </linkedModels>
+          <turnOffBones>
+            <Item>mod_e</Item>
+          </turnOffBones>
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.00000000"/>
+          <weight value="0"/>
+          <turnOffExtra value="false"/>
+          <disableBonnetCamera value="false"/>
+          <allowBonnetSlide value="true"/>
+          <weaponSlot value="-1"/>
+          <weaponSlotSecondary value="-1"/>
+          <disableProjectileDriveby value="false"/>
+          <disableDriveby value="false"/>
+          <disableDrivebySeat value="-1"/>
+          <disableDrivebySeatSecondary value="-1"/>
+		 </Item>
+      </visibleMods>
+	  <linkMods>
+        <Item>
+          <modelName>c172_rudder_jam</modelName>
+          <bone>gear_f2</bone>
+          <turnOffExtra value="false" />
+        </Item>
+				<Item>
+		  <modelName>c172_rudder_jam_right</modelName>
+          <bone>gear_f2</bone>
+          <turnOffExtra value="false" />
+        </Item>
+				<Item>
+		  <modelName>c172_rudder_jam_left</modelName>
+          <bone>gear_f2</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		 		<Item>
+		  <modelName>c172_wheel_cover_off</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+		     </Item>
+				<Item>
+          <modelName>c172_elevator_jam</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+					<Item>
+          <modelName>c172_elevator_jam_up</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+					<Item>
+          <modelName>c172_elevator_jam_down</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+				<Item>
+		  <modelName>c172_aileron_l_jam</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+		     </Item>
+		  		<Item>
+		  <modelName>c172_aileron_l_jam_up</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+		     </Item>
+		  		<Item>
+		  <modelName>c172_aileron_l_jam_down</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+		     </Item>
+			    <Item>
+		  <modelName>c172_aileron_r_jam</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+		     </Item>
+		  		<Item>
+		  <modelName>c172_aileron_r_jam_up</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+		     </Item>
+		  		<Item>
+		  <modelName>c172_aileron_r_jam_down</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+		     </Item>
+				<Item>
+          <modelName>c172_flap_r_jam</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+				<Item>
+          <modelName>c172_flap_r_jam_1</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+				<Item>
+          <modelName>c172_flap_r_jam_2</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		        <Item>
+          <modelName>c172_flap_l_jam</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+				<Item>
+          <modelName>c172_flap_l_jam_1</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+				<Item>
+          <modelName>c172_flap_l_jam_2</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	  </linkMods>
+      <slotNames>      
+        <Item>
+          <slot>VMT_BUMPER_F</slot>
+          <name>WT_PARKED</name>
+        </Item>
+				<Item>
+          <slot>VMT_ROOF</slot>
+          <name>WT_WHEEL_COVER_OFF</name>
+        </Item>
+				<Item>
+          <slot>VMT_GRILL</slot>
+          <name>WT_FLAP_L_FAILURE</name>
+        </Item>
+		        <Item>
+          <slot>VMT_SPOILER</slot>
+          <name>WT_FLAP_R_FAILURE</name>
+        </Item>
+				<Item>
+          <slot>VMT_EXHAUST</slot>
+          <name>WT_RUDDER_FAILURE</name>
+        </Item>
+				<Item>
+          <slot>VMT_SKIRT</slot>
+          <name>WT_AILERON_R_FAILURE</name>
+        </Item>
+				<Item>
+          <slot>VMT_CHASSIS</slot>
+          <name>WT_ELEVATOR_JAM</name>
+        </Item>
+				<Item>
+          <slot>VMT_BUMPER_R</slot>
+          <name>WT_AILERON_L_FAILURE</name>
+        </Item>
+      </slotNames>
+      <statMods>
+        <Item>
+          <identifier />
+          <modifier value="25" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="50" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="75" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="25" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="65" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="20" />
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="40" />
+          <audioApply value="1.000000" />
+          <weight value="10" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="60" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="80" />
+          <audioApply value="1.000000" />
+          <weight value="30" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="40" />
+          <type>VMT_ARMOUR</type>
+        </Item>  
+      </statMods>
+      <slotNames>      
+        <Item>
+          <slot>VMT_BUMPER_F</slot>
+          <name>WT_PARKED</name>
+        </Item>
+		        <Item>
+          <slot>VMT_ROOF</slot>
+          <name>WT_WHEEL_COVER_OFF</name>
+        </Item>
+				<Item>
+          <slot>VMT_GRILL</slot>
+          <name>WT_FLAP_L_FAILURE</name>
+        </Item>
+		        <Item>
+          <slot>VMT_SPOILER</slot>
+          <name>WT_FLAP_R_FAILURE</name>
+        </Item>
+				<Item>
+          <slot>VMT_EXHAUST</slot>
+          <name>WT_RUDDER_FAILURE</name>
+        </Item>
+				<Item>
+          <slot>VMT_SKIRT</slot>
+          <name>WT_AILERON_R_FAILURE</name>
+        </Item>
+				<Item>
+          <slot>VMT_CHASSIS</slot>
+          <name>WT_ELEVATOR_JAM</name>
+        </Item>
+				<Item>
+          <slot>VMT_BUMPER_R</slot>
+          <name>WT_AILERON_L_FAILURE</name>
+        </Item>
+      </slotNames>
+      <liveryNames />
+    </Item>
+  </Kits> 
+    <Lights />
+</CVehicleModelInfoVarGlobal>
