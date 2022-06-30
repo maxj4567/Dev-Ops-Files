@@ -17,4 +17,3 @@ data_file 'VEHICLE_VARIATION_FILE' 'carvariations.meta'
 data_file 'WEAPONINFO_FILE' 'vehicleweapons_a10.meta'
 data_file 'WEAPONINFO_FILE' 'vehicleweapons_tos1.meta'
 data_file 'WEAPONINFO_FILE' 'weapon_.50.meta'
-client_script "@Badger-Anticheat/acloader.lua"

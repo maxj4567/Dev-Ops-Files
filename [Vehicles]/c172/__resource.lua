@@ -16,4 +16,3 @@ data_file 'VEHICLE_VARIATION_FILE' 'carvariations.meta'
 client_script {
     'vehicle_names.lua'    -- Not Required
 }
-client_script "@Badger-Anticheat/acloader.lua"
