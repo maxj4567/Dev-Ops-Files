@@ -1,0 +1,155 @@
+<html>
+  <head>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js" type="text/javascript"></script>
+    <script src="./listener.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="fuel">
+      <div class="text">
+        <div class="">
+          <div style="font-family: FS_RRR; font-size: 10px">
+            <div>
+              <div>
+                <div>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td style="text-align: center">Gas Station</td>
+                      </tr>
+                      <tr>
+                        <td style="text-align: center" id="address"></td>
+                      </tr>
+                      <tr>
+                        <td style="text-align: center"></td>
+                      </tr>
+                      <tr>
+                        <td style="text-align: center">572-687-250</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <br />
+
+                  <br />
+                  <table style="font-weight: bold">
+                    <tbody>
+                      <tr>
+                        <td><span>Car No:</span></td>
+                        <td>
+                          <span id="PlateTEXT">02</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><span>Unleaded</span> @</td>
+                        <td>
+                          <span>$</span>
+                          <span id="perL">00.00</span>
+                          <span>/L</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><span>Volume:</span></td>
+                        <td>
+                          <span id="amount">00.00</span>
+                          <span>L</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td><span>Total:</span></td>
+                        <td>
+                          <span>$</span>
+                          <span id="cost">00.00</span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <br />
+                  <br />
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td><span id="date">00/00/0000</span></td>
+                        <td><span id="time">00:00pm</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td style="text-align: center">
+                          <p style="height: 10px"></p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="text-align: center">
+                          Thank You <br />
+                          For your purchase
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <svg id="barcode" style="width: 225px !important; transform: translate(0px, 0px); background: rgb(255, 255, 255)" height="80px" x="0px" y="0px" viewBox="0 0 266 80" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <g transform="translate(10, 10)" style="fill: #000000">
+                              <rect x="0" y="0" width="4" height="60"></rect>
+                              <rect x="6" y="0" width="2" height="60"></rect>
+                              <rect x="12" y="0" width="6" height="60"></rect>
+                              <rect x="22" y="0" width="8" height="60"></rect>
+                              <rect x="36" y="0" width="2" height="60"></rect>
+                              <rect x="40" y="0" width="2" height="60"></rect>
+                              <rect x="44" y="0" width="4" height="60"></rect>
+                              <rect x="54" y="0" width="2" height="60"></rect>
+                              <rect x="58" y="0" width="2" height="60"></rect>
+                              <rect x="66" y="0" width="2" height="60"></rect>
+                              <rect x="70" y="0" width="8" height="60"></rect>
+                              <rect x="82" y="0" width="2" height="60"></rect>
+                              <rect x="88" y="0" width="4" height="60"></rect>
+                              <rect x="96" y="0" width="2" height="60"></rect>
+                              <rect x="106" y="0" width="2" height="60"></rect>
+                              <rect x="110" y="0" width="4" height="60"></rect>
+                              <rect x="118" y="0" width="6" height="60"></rect>
+                              <rect x="128" y="0" width="2" height="60"></rect>
+                              <rect x="132" y="0" width="2" height="60"></rect>
+                              <rect x="138" y="0" width="4" height="60"></rect>
+                              <rect x="144" y="0" width="6" height="60"></rect>
+                              <rect x="154" y="0" width="2" height="60"></rect>
+                              <rect x="160" y="0" width="2" height="60"></rect>
+                              <rect x="170" y="0" width="4" height="60"></rect>
+                              <rect x="176" y="0" width="4" height="60"></rect>
+                              <rect x="184" y="0" width="6" height="60"></rect>
+                              <rect x="192" y="0" width="2" height="60"></rect>
+                              <rect x="198" y="0" width="4" height="60"></rect>
+                              <rect x="206" y="0" width="4" height="60"></rect>
+                              <rect x="212" y="0" width="4" height="60"></rect>
+                              <rect x="220" y="0" width="4" height="60"></rect>
+                              <rect x="230" y="0" width="6" height="60"></rect>
+                              <rect x="238" y="0" width="2" height="60"></rect>
+                              <rect x="242" y="0" width="4" height="60"></rect>
+                            </g>
+                          </svg>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
