@@ -1,11 +1,10 @@
--- Based off Scully's Sling Script // Made by: Tugamars#2064
 
 local Sling = {
 	
 }
 
 Sling[1]={
-		WeaponIsSlinged = false,
+		WeaponIsSlinged = false
 		WeaponObject = nil,
 		Weapon = nil,
 		Ammo = nil,
@@ -14,7 +13,7 @@ Sling[1]={
 	}
 
 Sling[2]={
-		WeaponIsSlinged = false,
+		WeaponIsSlinged = false
 		WeaponObject = nil,
 		Weapon = nil,
 		Ammo = nil,
