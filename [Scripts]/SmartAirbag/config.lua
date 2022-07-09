@@ -1,5 +1,5 @@
 main = {
-    -- Set damageLevel to 100.0 to activate airbags when the vehicle is no longer drivable
+    -- Set damageLevel  100.0 to activate airbags when the vehicle is no longer drivable
     -- This is recommended to stay between 700 - 999.0
     -- Vehicles start at 1000.0 damage level - then gradually reduce
     damageLevel = 960.0,

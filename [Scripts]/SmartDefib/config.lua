@@ -1,5 +1,3 @@
--- Before configuring, we recommend reading our documentation found at:
--- htttps://docs.londonstudios.net
 
 main = {
 	blipsEnabled = true, -- Only shows blips nearby on minimap
